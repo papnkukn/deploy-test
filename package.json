@@ -4,10 +4,16 @@
   "description": "Dummy scripts for automatic deployment test",
   "main": "app.js",
   "dependencies": {
-    "express": "~3.3.8"
+    "express": "~3.3.8",
+	"body-parser": "*"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-jshint": "*"
   },
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "grunt --verbose"
   },
   "repository": {
     "type": "git",
