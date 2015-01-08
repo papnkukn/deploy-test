@@ -1,8 +1,6 @@
 language: node_js
 node_js:
   - "0.10"
-  - "0.8"
-  - "0.6"
 env:
   - RUNTIME=Travis
 notifications:
@@ -10,4 +8,4 @@ notifications:
     urls:
       - http://wh.office.proxima.si/travis
     on_success: always
-    on_failure: never
+    on_failure: always
