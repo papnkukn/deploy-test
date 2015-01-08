@@ -8,4 +8,4 @@ notifications:
     urls:
       - http://wh.office.proxima.si/travis
     on_success: always
-    on_failure: always
+    on_failure: never
